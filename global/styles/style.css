@@ -1,0 +1,91 @@
+body {	
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #141414;
+	color: #fff;
+	white-space: nowrap;
+	transition: 0.5 linear;
+}
+.header-logo {
+	text-align: center;
+	margin: 60px;
+	font-size: 44px;
+}
+
+.header-logo span {
+	transition: 0.7s ease-out;
+	opacity: 1;
+	padding: 12px;
+	border-radius: 30px;
+	border: 3px solid #00f2c2;
+	box-shadow: 0 0 8px #00f2c2;
+	color: #0fc;
+}
+.header-navigation {
+	transition: 0.5 linear;
+	font-weight: normal;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 32px;
+	padding: 15px;
+	width: 400px;
+	border-bottom: 2px solid #fff;
+	border-radius: 1px 1px 1px 1px;
+}
+.header-navigation span {
+	padding: 10px;
+}
+.header-logo span:hover {
+	box-shadow: 0 0 12.5px #00f2c2;
+}
+.navigation {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.box-nav {
+	padding: 20px;
+	text-align: center;
+	margin: 50px;
+}
+.box-nav span {
+	transition: 0.8s ease-out;
+	border-radius: 30px;
+	border: 3px solid #00f0e4;
+	padding: 15px;
+	font-size: 32px;
+}
+.box-nav span:hover {
+	background-color: rgba(0,240,228,0.1);
+	border-radius: 30px;
+	border: 3px solid #00f0e4;
+	transition: 0.5 linear;
+}
+@media screen and (max-width: 1320px) {
+	.navigation {
+		flex-direction: column;
+		margin-top: 20px;
+	}
+	.box-nav span {
+		padding: 20px;
+	}
+}
+@media screen and (max-width: 590px) {
+	.header-navigation {
+		width: 350px
+	}
+	.box-nav span {
+		padding: 15px;
+	}
+}
+@media screen and (max-width: 470px) {
+	.header-navigation {
+		width: 320px
+	}
+}
+@media screen and (max-width: 450px) {
+	.header-navigation {
+		width: 290px
+	}
+}
