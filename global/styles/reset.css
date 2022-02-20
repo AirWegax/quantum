@@ -58,6 +58,9 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
+input {
+  all: unset;
+}
 /* smooth start (animation) */
 .body_hide {
   opacity: 0;

@@ -2,13 +2,55 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	background-color: #141414;
 	color: #fff;
-	white-space: nowrap;
 	transition: 0.5 linear;
+}
+::selection {
+	border-radius: 28px;
+	background-color: #fff;
+	color: #000;
 }
 .header-logo {
 	text-align: center;
-	margin: 60px;
+	margin: 50px 50px 50px 50px;
 	font-size: 44px;
+}
+.google-div  {
+	padding: 30px;
+	border-radius: 28px;
+	margin-top: auto;
+	margin: 150px auto;
+	text-align: center;
+}
+.dgoole {
+	border-radius: 28px;
+	border: 3px solid #fff;
+	padding: 30px;
+	font-size: 35px;
+}
+.dgoole:hover {
+	font-weight: bold;
+	border-radius: 28px;
+	background-color: #fff;
+	color: #000;
+}
+
+.g:hover {
+	color: #3f7ee8;
+}
+.o:hover {
+	color: #de4032;
+}
+.o-o:hover {
+	color: #EEB205;
+}
+.g-g:hover {
+	color: #3f7ee8;
+}
+.l:hover {
+	color: #319f4f;
+}
+.e:hover {
+	color: #de4032;
 }
 
 .header-logo span {
@@ -27,7 +69,7 @@ body {
 	margin: 0 auto;
 	font-size: 32px;
 	padding: 15px;
-	width: 400px;
+	width: 300px;
 	border-bottom: 2px solid #fff;
 	border-radius: 1px 1px 1px 1px;
 }
@@ -62,6 +104,117 @@ body {
 	border: 3px solid #00f0e4;
 	transition: 0.5 linear;
 }
+.header-about {
+	margin-top: 80px;
+	text-align: center;
+	font-size: 32px;
+}
+.text-about {
+	text-align: center;
+	margin: 50px auto;
+	font-size: 20px;
+	width: 600px;
+	line-height: 30px;
+}
+.green {
+	color: #00f0e4;
+}
+.day {
+  	text-align: center;
+}
+.day-text {
+	border-bottom: 3px solid #fff;
+  	margin: auto;
+  	padding: 20px;
+  	width: 800px;
+  	margin-bottom: 40px;
+  	font-size: 38px;
+}
+.day-list {
+  	display: flex;
+  	align-items: center;
+  	text-align: center;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	text-align: center;
+  	background-color: #fff;
+  	width: 1000px;
+  	margin: 0 auto;
+  	border-radius: 30px;
+  	margin-bottom: 100px;
+}
+.day-element  {
+  	margin: 70px;
+  	font-size: 22px;
+}
+.lessson-all {
+  	padding: 20px 40px 20px 40px;
+    border-radius: 22px;
+  	background: #000;
+  	color: #fff;	
+}
+.lesson {
+	color: #00f2c2;
+}
+.lesson-big {
+	padding: 20px 40px 20px 40px;
+	border-radius: 22px;
+	background: #000;
+	color: #fff;
+}
+#name {
+	padding: 15px 20px 15px 20px;
+	border-radius: 28px;
+	background-color: #fff;
+	color: #000;
+	font-size: 20px;
+}
+.inqury-main {
+	margin-top: -20px;
+	text-align: center;
+}
+.inqury-key {
+	font-size: 35px;
+	margin: 100px;
+	line-height: 45px;
+}
+.submit {
+	font-size: 28px;
+	padding: 15px 20px 15px 20px;
+	border-radius: 28px;
+	border: 2px solid #fff;
+}
+.submit:hover {#
+	background-color: #fff;
+}
+.idtext {
+	margin: 20px;
+	font-size: 20px;
+}
+.text-about-inqury {
+	margin-top: -50px;
+	margin-bottom: 50px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.text-about-inqury a {
+	color: #00f0e4;
+}
+.text-about-inqury a:hover {
+	color: #75fff8;
+}
+.sample-header {
+	font-size: 32px;
+	text-align: center;
+	margin-top: 80px;
+}
+.sample-img {
+	border-radius: 28px;
+	display: block;
+  	margin: 50px auto;	
+  	max-width: 1000px;
+  	border: 3px solid #eee;
+}
 @media screen and (max-width: 1320px) {
 	.navigation {
 		flex-direction: column;
@@ -71,21 +224,145 @@ body {
 		padding: 20px;
 	}
 }
-@media screen and (max-width: 590px) {
-	.header-navigation {
-		width: 350px
-	}
-	.box-nav span {
-		padding: 15px;
+@media screen and (max-width: 1110px) {
+	.day-list {
+		width: 800px;
 	}
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 920px) {
+	.day-list {
+		width: 600px;
+	}
+	.day-text {
+		width: 650px;
+	}
+}
+@media screen and (max-width: 770px) {
+	.day-list {
+		width: 550px;
+	}
+	.day-text {
+		width: 560px;
+	}
+}
+@media screen and (max-width: 680px) {
+	.day-list {
+		width: 450px;
+	}
+	.day-text {
+		width: 460px;
+	}
+}
+@media screen and (max-width: 590px) {
+	.day-list {
+		width: 350px;
+	}
+	.day-text {
+		width: 360px;
+	}
+	.day-element  {
+  		margin: 50px;
+  		font-size: 18px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.day-list {
+		width: 300px;
+	}
+	.day-text {
+		width: 320px;
+	}
+	.day-element  {
+  		margin: 45px;
+  		font-size: 18px;
+	}
+	.lessson-all {
+	  	padding: 20px 25px 20px 25px;	
+	}
+	.lesson-big {
+		padding: 20px 15px 20px 15px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.day-list {
+		width: 250px;
+	}
+	.day-text {
+		width: 265px;
+	}
+	.day-element  {
+  		margin: 40px;
+  		font-size: 16px;
+	}
+	.lessson-all {
+	  	padding: 20px 25px 20px 25px;	
+	}
+	.lesson-big {
+		padding: 20px 20px 20px 20px;
+	}
+}
+@media screen and (max-width: 340px) {
+	.day-list {
+		width: 240px;
+	}
+	.day-text {
+		width: 235px;
+	}
+	.day-element  {
+  		margin: 35px;
+  		font-size: 16px;
+	}
+	.lessson-all {
+	  	padding: 20px 25px 20px 25px;	
+	}
+}
+@media screen and (max-width: 670px) {
+	.text-about {
+		width: 500px;
+	}
+}
+@media screen and (max-width: 590px) {
+	.text-about {
+		width: 450px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.text-about {
+		width: 350px;
+	}
 	.header-navigation {
-		width: 320px
+		width: 300px
+	}
+}
+@media screen and (max-width: 400px) {
+	.text-about {
+		width: 300px;
+	}
+}
+@media screen and (max-width: 370px) {
+	.text-about {
+		width: 250px;
+	}
+	.header-logo {
+		margin: 50px;
+		font-size: 40px;
+	}
+	.box-nav span {
+		padding: 14px;
+		font-size: 26px;
 	}
 }
 @media screen and (max-width: 450px) {
 	.header-navigation {
-		width: 290px
+		width: 250px
+	}
+	.box-nav span {
+		padding: 15px;
+		font-size: 28px;
+	}
+	.box-nav {
+		padding: 20px;
+		text-align: center;
+		margin: 40px;
 	}
 }
