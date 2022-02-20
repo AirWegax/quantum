@@ -271,6 +271,19 @@ body {
 	.lesson-big {
 		padding: 20px 15px 20px 15px;
 	}
+	.google-div  {
+		padding: 25px;
+		border-radius: 28px;
+		margin-top: auto;
+		margin: 150px auto;
+		text-align: center;
+	}
+	.dgoole {
+		border-radius: 28px;
+		border: 3px solid #fff;
+		padding: 30px;
+		font-size: 30px;
+	}
 }
 @media screen and (max-width: 400px) {
 	.day-list {
@@ -288,6 +301,19 @@ body {
 	}
 	.lesson-big {
 		padding: 20px 20px 20px 20px;
+	}
+	.google-div  {
+		padding: 24px;
+		border-radius: 28px;
+		margin-top: auto;
+		margin: 150px auto;
+		text-align: center;
+	}
+	.dgoole {
+		border-radius: 28px;
+		border: 3px solid #fff;
+		padding: 24px;
+		font-size: 26px;
 	}
 }
 @media screen and (max-width: 340px) {
