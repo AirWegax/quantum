@@ -184,7 +184,8 @@ body {
 	border-radius: 28px;
 	border: 2px solid #fff;
 }
-.submit:hover {#
+.submit:hover {
+	color: #000;
 	background-color: #fff;
 }
 .idtext {
@@ -202,18 +203,6 @@ body {
 }
 .text-about-inqury a:hover {
 	color: #75fff8;
-}
-.sample-header {
-	font-size: 32px;
-	text-align: center;
-	margin-top: 80px;
-}
-.sample-img {
-	border-radius: 28px;
-	display: block;
-  	margin: 50px auto;	
-  	max-width: 1000px;
-  	border: 3px solid #eee;
 }
 @media screen and (max-width: 1320px) {
 	.navigation {
