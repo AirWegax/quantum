@@ -1465,8 +1465,8 @@ function updateDate() {
 	if (dayWeek == 0) {
 		day = date.getDate();
 		day = day;
-				if (month == 1 && day >= 31) {
-			month = month + 6;
+		if (month == 1 && day >= 31) {
+			month = month + 1;
 		} else if(month == 2) {
 			if (day >= 28) {
 				month = 3;
@@ -1498,7 +1498,7 @@ function updateDate() {
 		dateSeven.textContent = 'Вс ' + month + '/' + day;	
 	} else if (dayWeek == 1) {
 		day = date.getDate();
-		day = day + 1;
+		day = day + 6;
 				if (month == 1 && day >= 31) {
 			month = month + 1;
 		} else if(month == 2) {
