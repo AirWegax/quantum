@@ -133,16 +133,6 @@ body {
 	margin: 50px 50px 20px 50px;
 	font-size: 20px;
 }
-#image {
-	display: inline-block; /* Строчно-блочный элемент */
-	border-radius: 25px;
-	border: 5px solid #eee;
-	max-width: 700px;
-	max-height: 700px;
-	margin-bottom: 50px;
-	padding: 10px;
-   overflow: hidden;
-}
 #down {
 	border-radius: 25px;
 	border: 5px solid #eee;
@@ -168,6 +158,13 @@ body {
   	transform: scale(1.1);
 }
 img {
+	border-radius: 25px;
+	border: 5px solid #eee;
+	max-width: 700px;
+	max-height: 700px;
+	margin-bottom: 50px;
+	padding: 10px;
+   	overflow: hidden;
   	transition: transform 0.25s;
 }
 #image {
