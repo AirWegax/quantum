@@ -1466,7 +1466,7 @@ function updateDate() {
 		day = date.getDate();
 		day = day;
 				if (month == 1 && day >= 31) {
-			month = month + 1;
+			month = month + 6;
 		} else if(month == 2) {
 			if (day >= 28) {
 				month = 3;
