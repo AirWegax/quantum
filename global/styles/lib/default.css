@@ -164,6 +164,15 @@ body {
 .main  {
 	margin-top: 100px;
 }
+#image:hover img {
+  	transform: scale(1.1);
+}
+img {
+  	transition: transform 0.25s;
+}
+#image {
+  	overflow: hidden;
+}
 @media screen and (max-width: 590px) {
 	.header-navigation {
 		width: 350px
