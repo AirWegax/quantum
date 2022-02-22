@@ -4,6 +4,26 @@ body {
 	color: #fff;
 	transition: 0.4 linear;
 }
+button {
+	background: none;
+	border: 0;
+	box-sizing: border-box;
+	margin: 1em;
+	padding: 1em 2em;
+	box-shadow: inset 0 0 0 2px #fff;
+	color: #00e699;
+	font-size: inherit;
+	font-weight: 700;
+	position: relative;
+	vertical-align: middle;
+}
+ button::before, button::after {
+	box-sizing: inherit;
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
 .header-logo {
 	text-align: center;
 	margin: 60px;
@@ -97,7 +117,7 @@ body {
 .photo {
 	display: block; 
 	margin: 0 auto;
-	width: 5image-header00px;
+	width: 5i00px;
 	padding: 25px 40px 40px 40px;
 	transition: .8s opacity ease-in-out;
 	text-align: center;
@@ -130,8 +150,60 @@ body {
 	text-align: center;
 }
 .image-header {
+	cursor: pointer;
 	margin: 50px 50px 20px 50px;
-	font-size: 20px;
+	font-size: 35px;
+}
+.image-header:hover {
+	color: #00d1ed;
+}
+.draw {
+ 	font-size: 20px;
+ 	padding: 20px;
+	transition: color 0.25s;
+}
+.draw::before, .draw::after {
+	border: 2px solid transparent;
+	width: 0;
+	height: 0;
+}
+.draw::before {
+	top: 0;
+	left: 0;
+}
+.draw::after {
+	bottom: 0;
+	right: 0;
+}
+.draw:hover {
+	color: #00e699;
+}
+.draw:hover::before, .draw:hover::after {
+	width: 100%;
+	height: 100%;
+}
+.draw:hover::before {
+	border-top-color: #00e699;
+	border-right-color: #00e699;
+	transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+.draw:hover::after {
+	border-bottom-color: #00e699;
+	border-left-color: #00e699;
+	transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+.meet::after {
+	top: 0;
+	left: 0;
+}
+.meet:hover::before {
+	border-top-color: #00e699;
+	border-right-color: #00e699;
+}
+.meet:hover::after {
+	border-bottom-color: #00e699;
+	border-left-color: #00e699;
+	transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
 }
 #down {
 	border-radius: 25px;
@@ -154,21 +226,11 @@ body {
 .main  {
 	margin-top: 100px;
 }
-#image:hover img {
-  	transform: scale(1.1);
-}
-img {
-	border-radius: 25px;
-	border: 5px solid #eee;
-	max-width: 700px;
-	max-height: 700px;
-	margin-bottom: 50px;
-	padding: 10px;
-   	overflow: hidden;
-  	transition: transform 0.25s;
-}
+
 #image {
-  	overflow: hidden;
+	width: 100%;
+    max-width: 800px;
+    height: auto;
 }
 @media screen and (max-width: 590px) {
 	.header-navigation {
