@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="../../../global/styles/lib/default.css">
 	<link rel="icon" href="../../../global/photo/logo.png">
 	<link rel="stylesheet" href="../../../global/styles/reset.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body class="body_hide">
@@ -17,12 +18,14 @@
 		</div>
 	</header>
 	<main class="main">
-		<div class="block-img-1">
-			<h2 class="image-header">Классная Работа.</h2>
-			<img src="../../../global/photo/kazah/photo1.jpg" alt="image" id="image">
+		<div class="block-img-1" href="../../../global/photo/kazah/photo1.jpg" data-fancybox="gallery" data-caption="Классная Работа">
+			<h2 class="image-header">Фото с доски:</h2>
+			<button class="draw meet">Классная Работа</button>
 		</div>
 	</main>
 	<script src="../../../global/scripts/script.js"></script>
-	<script defer src="/examples/libs/simple-adaptive-slider/simple-adaptive-slider.min.js"></script>
+	<script type="module">
+  		import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+	</script>
 </body>
 </html>

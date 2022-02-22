@@ -7,21 +7,25 @@
 	<link rel="stylesheet" href="../../../global/styles/lib/default.css">
 	<link rel="stylesheet" href="../../../global/styles/reset.css">
 	<link rel="icon" href="../../../global/photo/logo.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
 </head>
 <body class="body_hide">
 	<header class="header">
 		<div class="logo">
-		<div class="block-img-1">
-			<h2 class="image-header">Изображение 1.</h2>
-			<img src="../../../global/photo/chemistry/photo1.jpg" alt="image" id="image">
-		</div>
+			<h1 class="header-logo"><a href="../../../index.html"><span>Quantum</span></a></h1>
+			<p class="back"><a href="../day1.html"><span>Назад ↩</span></a></p>
 		</div>
 	</header>
 	<main class="main">
-		<h1 class="none">Пока здесь не чего нет...</h1>
-		<h3 class="none-p">Зайдите позже</h3>
+		<div class="block-img-1" href="../../../global/photo/chemistry/photo1.jpg" data-fancybox="gallery" data-caption="Классная Работа">
+			<h2 class="image-header">Фото с доски:</h2>
+			<button class="draw meet">Классная Работа</button>
+		</div>
 	</main>
 	<script src="../../../global/scripts/script.js"></script>
+	<script type="module">
+  		import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+	</script>
 </body>
 </html>
