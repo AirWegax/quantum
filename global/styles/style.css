@@ -204,6 +204,33 @@ body {
 .text-about-inqury a:hover {
 	color: #75fff8;
 }
+.header-class {
+	margin: 75px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 36px;
+}
+.class {
+  	display: flex;
+  	flex-wrap: wrap;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+}
+.choose-class {
+	margin: 50px;
+	color: #FFF;
+	border: 3px solid #fff;
+	border-radius: 28px;
+	font-size: 28px;
+	padding: 30px;
+	background: rgb(0,74,255);
+	background: -moz-linear-gradient(90deg, rgba(0,74,255,1) 0%, rgba(188,0,255,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(0,74,255,1) 0%, rgba(188,0,255,1) 100%);
+	background: linear-gradient(90deg, rgba(0,74,255,1) 0%, rgba(188,0,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004aff",endColorstr="#bc00ff",GradientType=1);
+}
+
 @media screen and (max-width: 1320px) {
 	.navigation {
 		flex-direction: column;
@@ -252,6 +279,18 @@ body {
 	.day-element  {
   		margin: 50px;
   		font-size: 18px;
+	}
+	.class {
+		text-align: center;
+		display: flex;	
+		justify-content: space-around;
+		flex-direction: column;
+	}
+	.header-class {
+		margin: 55px;
+	}
+	.choose-class {
+		margin: 35px;
 	}
 }
 @media screen and (max-width: 450px) {
@@ -329,6 +368,13 @@ body {
 	}
 	.lessson-all {
 	  	padding: 20px 25px 20px 25px;	
+	}
+	.header-class {
+		font-size: 32px;
+		margin: 16px;
+	}
+	.choose-class {
+		margin: 35px;
 	}
 }
 @media screen and (max-width: 670px) {
