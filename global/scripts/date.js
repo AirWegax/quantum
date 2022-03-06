@@ -156,69 +156,69 @@ function updateDate() {
 		day = date.getDate();
 		day = day - 5;
 		checkMD();
-		dateTwo.textContent = 'Вт ' + month + '/' + day
+		dateTwo.textContent = 'Вт ' + month + '/' + day;
 	} else if (dayWeek == 1) {
 		day = date.getDate();
 		day = day + 1;
 		checkMD();
-		dateTwo.textContent = 'Вт ' + month + '/' + day	
+		dateTwo.textContent = 'Вт ' + month + '/' + day;	
 	} else if (dayWeek == 2) {
 		day = date.getDate();
 		day = day;
 		checkMD();
-		dateTwo.textContent = 'Вт ' + month + '/' + day	
+		dateTwo.textContent = 'Вт ' + month + '/' + day;	
 	} else if (dayWeek == 3) {
 		day = date.getDate();
 		day = day - 1;
 		checkMD();
-		dateTwo.textContent = 'Вт ' + month + '/' + day	
+		dateTwo.textContent = 'Вт ' + month + '/' + day;	
 	} else if (dayWeek == 4) {
 		day = date.getDate();
 		day = day - 2;
 		checkMD();
-		dateTwo.textContent = 'Вт ' + month + '/' + day	
+		dateTwo.textContent = 'Вт ' + month + '/' + day;	
 	} else if (dayWeek == 5) {
 		day = date.getDate();
 		day = day - 3;
 		checkMD();
-		dateTwo.textContent = 'Вт ' + month + '/' + day	
+		dateTwo.textContent = 'Вт ' + month + '/' + day;	
 	} else if (dayWeek == 6) {
 		day = date.getDate();
 		day = day - 4;
 		checkMD();
-		dateTwo.textContent = 'Вт ' + month + '/' + day	
+		dateTwo.textContent = 'Вт ' + month + '/' + day;	
 	}
 
 	if (dayWeek == 0) {
 		day = date.getDate();
 		day = day - 4;
 		checkMD();
-		dateThere.textContent = 'Ср ' + month + '/' + day
+		dateThere.textContent = 'Ср ' + month + '/' + day;
 	} else if (dayWeek == 1) {
 		day = date.getDate();
 		day = day + 2;
 		checkMD();
-		dateThere.textContent = 'Ср ' + month + '/' + day
+		dateThere.textContent = 'Ср ' + month + '/' + day;
 	} else if (dayWeek == 2) {
 		day = date.getDate();
 		day = day + 1;
 		checkMD();
-		dateThere.textContent = 'Ср ' + month + '/' + day	
+		dateThere.textContent = 'Ср ' + month + '/' + day;	
 	} else if (dayWeek == 3) {
 		day = date.getDate();
 		day = day;
 		checkMD();
-		dateThere.textContent = 'Ср ' + month + '/' + day	
+		dateThere.textContent = 'Ср ' + month + '/' + day;	
 	} else if (dayWeek == 4) {
 		day = date.getDate();
 		day = day - 1;
 		checkMD();
-		dateThere.textContent = 'Ср ' + month + '/' + day	
+		dateThere.textContent = 'Ср ' + month + '/' + day;	
 	} else if (dayWeek == 5) {
 		day = date.getDate();
 		day = day - 2;
 		checkMD();
-		dateThere.textContent = 'Ср ' + month + '/' + day	
+		dateThere.textContent = 'Ср ' + month + '/' + day;	
 	} else if (dayWeek == 6) {
 		day = date.getDate();
 		day = day - 3;
@@ -228,150 +228,150 @@ function updateDate() {
 
 	if (dayWeek == 0) {
 		day = date.getDate();
-		day = day - 4;
+		day = day - 3;
 		checkMD();
-		dateFour.textContent = 'Чт ' + month + '/' + day
+		dateFour.textContent = 'Чт ' + month + '/' + day;
 	} else if (dayWeek == 1) {
 		day = date.getDate();
 		day = day + 3;
 		checkMD();
-		dateFour.textContent = 'Чт ' + month + '/' + day	
+		dateFour.textContent = 'Чт ' + month + '/' + day;	
 	} else if (dayWeek == 2) {
 		day = date.getDate();
 		day = day + 2;
 		checkMD();
-		dateFour.textContent = 'Чт ' + month + '/' + day	
+		dateFour.textContent = 'Чт ' + month + '/' + day;	
 	} else if (dayWeek == 3) {
 		day = date.getDate();
 		day = day + 1;
 		checkMD();
-		dateFour.textContent = 'Чт ' + month + '/' + day	
+		dateFour.textContent = 'Чт ' + month + '/' + day;	
 	} else if (dayWeek == 4) {
 		day = date.getDate();
 		day = day;
 		checkMD();
-		dateFour.textContent = 'Чт ' + month + '/' + day	
+		dateFour.textContent = 'Чт ' + month + '/' + day;	
 	} else if (dayWeek == 5) {
 		day = date.getDate();
 		day = day - 1;
 		checkMD();
-		dateFour.textContent = 'Чт ' + month + '/' + day	
+		dateFour.textContent = 'Чт ' + month + '/' + day;	
 	} else if (dayWeek == 6) {
 		day = date.getDate();
 		day = day - 2;
 		checkMD();
-		dateFour.textContent = 'Чт ' + month + '/' + day	
+		dateFour.textContent = 'Чт ' + month + '/' + day;	
 	}
 
 	if (dayWeek == 0) {
 		day = date.getDate();
-		day = day - 5;
+		day = day - 2;
 		checkMD();
-		dateFive.textContent = 'Пт ' + month + '/' + da
+		dateFive.textContent = 'Пт ' + month + '/' + day;
 	} else if (dayWeek == 1) {
 		day = date.getDate();
 		day = day + 4;
 		checkMD();
-		dateFive.textContent = 'Пт ' + month + '/' + day	
+		dateFive.textContent = 'Пт ' + month + '/' + day;	
 	} else if (dayWeek == 2) {
 		day = date.getDate();
 		day = day + 3;
 		checkMD();
-		dateFive.textContent = 'Пт ' + month + '/' + day	
+		dateFive.textContent = 'Пт ' + month + '/' + day;	
 	} else if (dayWeek == 3) {
 		day = date.getDate();
 		day = day + 2;
 		checkMD();
-		dateFive.textContent = 'Пт ' + month + '/' + day	
+		dateFive.textContent = 'Пт ' + month + '/' + day;	
 	} else if (dayWeek == 4) {
 		day = date.getDate();
 		day = day + 1;
 		checkMD();
-		dateFive.textContent = 'Пт ' + month + '/' + day	
+		dateFive.textContent = 'Пт ' + month + '/' + day;	
 	} else if (dayWeek == 5) {
 		day = date.getDate();
 		day = day;
 		checkMD();
-		dateFive.textContent = 'Пт ' + month + '/' + day	
+		dateFive.textContent = 'Пт ' + month + '/' + day;	
 	} else if (dayWeek == 6) {
 		day = date.getDate();
 		day = day - 1;
 		checkMD();
-		dateFive.textContent = 'Пт ' + month + '/' + day	
+		dateFive.textContent = 'Пт ' + month + '/' + day;	
 	}
 
 	if (dayWeek == 0) {
 		day = date.getDate();
-		day = day - 6;
+		day = day - 1;
 		checkMD();
-		dateSix.textContent = 'Сб ' + month + '/' + da
+		dateSix.textContent = 'Сб ' + month + '/' + day;
 	} else if (dayWeek == 1) {
 		day = date.getDate();
 		day = day + 5;
 		checkMD(); 
-		dateSix.textContent = 'Сб ' + month + '/' + day	
+		dateSix.textContent = 'Сб ' + month + '/' + day;	
 	} else if (dayWeek == 2) {
 		day = date.getDate();
 		day = day + 4;
 		checkMD();
-		dateSix.textContent = 'Сб ' + month + '/' + day	
+		dateSix.textContent = 'Сб ' + month + '/' + day;	
 	} else if (dayWeek == 3) {
 		day = date.getDate();
 		day = day + 3;
 		checkMD();
-		dateSix.textContent = 'Сб ' + month + '/' + day	
+		dateSix.textContent = 'Сб ' + month + '/' + day;	
 	} else if (dayWeek == 4) {
 		day = date.getDate();
 		day = day + 2;
 		checkMD();
-		dateSix.textContent = 'Сб ' + month + '/' + day	
+		dateSix.textContent = 'Сб ' + month + '/' + day;
 	} else if (dayWeek == 5) {
 		day = date.getDate();
 		day = day + 1;
 		checkMD();
-		dateSix.textContent = 'Сб ' + month + '/' + day	
+		dateSix.textContent = 'Сб ' + month + '/' + day;	
 	} else if (dayWeek == 6) {
 		day = date.getDate();
 		day = day;
 		checkMD();
-		dateSix.textContent = 'Сб ' + month + '/' + day	
+		dateSix.textContent = 'Сб ' + month + '/' + day;	
 	}
 
 	if (dayWeek == 0) {
 		day = date.getDate();
 		day = day;
 		checkMD();
-		dateSeven.textContent = 'Вс ' + month + '/' + day
+		dateSeven.textContent = 'Вс ' + month + '/' + day;
 	} else if (dayWeek == 1) {
 		day = date.getDate();
 		day = day + 6;
 		checkMD();
-		dateSeven.textContent = 'Вс ' + month + '/' + day	
+		dateSeven.textContent = 'Вс ' + month + '/' + day;	
 	} else if (dayWeek == 2) {
 		day = date.getDate();
 		day = day + 5;
 		checkMD();
-		dateSeven.textContent = 'Вс ' + month + '/' + day	
+		dateSeven.textContent = 'Вс ' + month + '/' + day;	
 	} else if (dayWeek == 3) {
 		day = date.getDate();
 		day = day + 4;
 		checkMD();
-		dateSeven.textContent = 'Вс ' + month + '/' + day
+		dateSeven.textContent = 'Вс ' + month + '/' + day;
 	} else if (dayWeek == 4) {
 		day = date.getDate();
 		day = day + 3;
 		checkMD();
-		dateSeven.textContent = 'Вс ' + month + '/' + day
+		dateSeven.textContent = 'Вс ' + month + '/' + day;
 	} else if (dayWeek == 5) {
 		day = date.getDate();
 		day = day + 2;
 		checkMD();
-		dateSeven.textContent = 'Вс ' + month + '/' + day
+		dateSeven.textContent = 'Вс ' + month + '/' + day;
 	} else if (dayWeek == 6) {
 		day = date.getDate();
 		day = day + 1;
 		checkMD();
-		dateSeven.textContent = 'Вс ' + month + '/' + day
+		dateSeven.textContent = 'Вс ' + month + '/' + day;
 	}
 }
 
