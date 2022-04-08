@@ -64,7 +64,14 @@ input {
 /* smooth start (animation) */
 .body_hide {
   opacity: 0;
-  transition: .8s opacity ease-in-out;
+  transition: .7s opacity ease-in-out;
+}
+.rgi_hide {
+	opacity: 1;
+	transition: .7s opacity ease-in-out;
+}
+.rgi_visible{
+	opacity: 0;
 }
 .body_visible {
   opacity: 1;
