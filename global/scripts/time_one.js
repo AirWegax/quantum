@@ -6,7 +6,7 @@ let hour = date.getHours();
 let min = date.getMinutes();
 let day = date.getDay();
 
-let minTimer = 60;	
+let minTimer = 60;
 
 if ((day == 0) || (day == 6)) {
 	timeTimer.textContent = 'Выходные!';
@@ -44,7 +44,7 @@ if (day >= 1 && day <= 5) {
 				minTimer = 95;
 				minTimer = minTimer - min;
 				timeTimer.textContent = 'До перемены: ' + minTimer + ' минут';
-			} else if (min <= 35) {
+			} else if (hour == 9 && min <= 35) {
 				minTimer = 35;
 				minTimer = minTimer - min;
 				timeTimer.textContent = 'До перемены: ' + minTimer + ' минут';	
