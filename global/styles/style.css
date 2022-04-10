@@ -1,4 +1,4 @@
-/* Style Start */
+/* Style 2 */
 body {	
 	font-family: 'Ubuntu', sans-serif;
 	background-color: #141414;
@@ -260,6 +260,17 @@ body {
 	margin: 25px;
 	display: flex;
 	justify-content: center;
+}
+.timetimer {
+	font-weight: bold;
+	font-size: 25px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.line {
+	
+	width: 300px;
+	background-color: #fff;
 }
 @media screen and (max-width: 1320px) {
 	.navigation {
