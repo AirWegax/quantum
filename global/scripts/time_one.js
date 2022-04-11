@@ -141,7 +141,7 @@ if (day >= 1 && day <= 5) {
 				timeTimer.textContent = 'До конца: ' + minTimer + ' минут';
 			}
 		}
-		if (hour >= 13 && min <= 55) {
+		if (hour >= 13 && min >= 55) {
 			timeTimer.textContent = 'Уроки кончились!';
 		}
 	}
