@@ -17,7 +17,7 @@ if (day >= 1 && day <= 5) {
 	if (hour <= 6) {
 		timeTimer.textContent = 'Уроки кончились!';
 	}
-	if (hour >= 13 && min <= 55) {
+	if (hour >= 13 && min >= 55) {
 		timeTimer.textContent = 'Уроки кончились!';
 	}
 	if (hour == 7) {
