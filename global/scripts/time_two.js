@@ -1,3 +1,4 @@
+// start
 const timeTimer = document.getElementById('timetimer')
 
 const date = new Date();
