@@ -8,8 +8,6 @@ let day = date.getDay();
 
 let minTimer = 0;
 
-hour = 7;
-min = 40;
 if ((day == 0) || (day == 6)) {
 	timeTimer.textContent = 'Выходные!';
 }
