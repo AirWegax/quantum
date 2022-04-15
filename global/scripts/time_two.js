@@ -162,6 +162,3 @@ function timeUpdate() {
 	}
 }
 timeUpdate();
-setInterval(timeUpdate, 2000)
-document.addEventListener('visibilitychange', timeUpdate);
-window.addEventListener('blur', timeUpdate);
