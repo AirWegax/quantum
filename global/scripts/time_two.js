@@ -20,18 +20,6 @@ if ((day == 0) || (day == 6)) {
 }
 function timeUpdate() {
 	if (day >= 1 && day <= 5) {
-		if (hour <= 12) {
-			timeTimer.textContent = 'Уроки кончились!';
-		}
-		if (hour >= 19 && min >= 20) {
-			timeTimer.textContent = 'Уроки кончились!';
-		} else if (hour >= 19) {
-			timeTimer.textContent = 'Уроки кончились!';
-		}
-		if (hour <= 12) {
-			timeTimer.textContent = 'Уроки кончились!';
-		}
-
 		if ((hour == 13) || (hour == 14)) {
 			minTimer = minTimer - min;
 			if (hour == 13) {
@@ -159,11 +147,6 @@ function timeUpdate() {
 				timeTimer.textContent = 'До перемены: ' + minTimer + ' минут';
 				minTimer = 0;	
 			}
-		}
-		if (hour >= 19 && min >= 20) {
-			timeTimer.textContent = 'Уроки кончились!';
-		} else if (hour >= 19) {
-			timeTimer.textContent = 'Уроки кончились!';
 		}
 	}
 }
