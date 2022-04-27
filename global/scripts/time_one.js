@@ -1,12 +1,19 @@
 const timeTimer = document.getElementById('timetimer')
 
-const date = new Date();
-
+let date = new Date();
 let hour = date.getHours();
 let min = date.getMinutes();
 let day = date.getDay();
 
 let minTimer = 0;
+
+function datesUpdated() {
+	date = new Date();
+	hour = date.getHours();
+	min = date.getMinutes();
+	day = date.getDay();
+}
+setInterval(datesUpdated, 1000)
 
 if ((day == 0) || (day == 6)) {
 	timeTimer.textContent = 'Выходные!';
@@ -172,4 +179,4 @@ function timeUpdate() {
 }
 
 timeUpdate();
-setInterval(timeUpdate, 2000)
+setInterval(timeUpdate, 1000)

@@ -1,12 +1,18 @@
 // start
 const timeTimer = document.getElementById('timetimer')
 
-const date = new Date();
-
+let date = new Date();
 let hour = date.getHours();
 let min = date.getMinutes();
 let day = date.getDay();
 
+function datesUpdated() {
+	date = new Date();
+	hour = date.getHours();
+	min = date.getMinutes();
+	day = date.getDay();
+}
+setInterval(datesUpdated, 1000)
 let minTimer = 75;
 
 if ((day == 0) || (day == 6)) {
@@ -161,4 +167,5 @@ function timeUpdate() {
 		}
 	}
 }
+setInterval(timeUpdate, 1000)
 timeUpdate();
