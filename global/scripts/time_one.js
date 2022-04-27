@@ -21,14 +21,6 @@ if ((day == 0) || (day == 6)) {
 
 function timeUpdate() {
 	if (day >= 1 && day <= 5) {
-		if (hour <= 6) {
-			timeTimer.textContent = 'Уроки кончились!';
-			minTimer = 0;
-		}
-		if (hour >= 13 && min >= 55) {
-			timeTimer.textContent = 'Уроки кончились!';
-			minTimer = 0;
-		}
 		if (hour == 7) {
 			minTimer = 60;
 			minTimer = minTimer - min;
@@ -169,10 +161,6 @@ function timeUpdate() {
 					timeTimer.textContent = 'До конца: ' + minTimer + ' минут';
 					minTimer = 0;
 				}
-			}
-			if (hour >= 13 && min >= 55) {
-				timeTimer.textContent = 'Уроки кончились!';
-				minTimer = 0;
 			}
 		}
 	}
