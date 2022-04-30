@@ -1,513 +1,509 @@
 /* Style 2 */
-body {	
-	font-family: 'Ubuntu', sans-serif;
-	background-color: #141414;
-	color: #fff;
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #141414;
+    color: #fff;
 }
 .rgi_hide {
-	font-size: 40px;
+    font-size: 40px;
 }
 .one_change {
-	font-size: 35px;
-	text-align: center;
+    font-size: 35px;
+    text-align: center;
 }
 .one_list_change {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	width: 400px;
-	height: 490px;
-	border-radius: 28px;
-	margin: 40px auto;
-	text-align: center;
-	font-size: 28px;
-	padding: 10px;
-	background-color: #fff;
-	box-shadow: 0 0 6px #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 490px;
+    border-radius: 28px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 6px #ffffff;
 }
 .one_list_element {
-	margin: 20px;
+    margin: 20px;
 }
 .element_sp {
-	padding: 10px 40px 10px 40px;
-	border-radius: 22px;
-	background-color: #000;
+    padding: 10px 40px 10px 40px;
+    border-radius: 22px;
+    background-color: #000;
 }
 .element_sp_1 {
-	color: #00f0e4;
+    color: #00f0e4;
 }
 ::selection {
-	border-radius: 28px;
-	background-color: #fff;
-	color: #000;
+    border-radius: 28px;
+    background-color: #fff;
+    color: #000;
 }
 .header-logo {
-	text-align: center;
-	margin: 50px 50px 50px 50px;
-	font-size: 44px;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+    font-size: 44px;
 }
 .header-logo span {
-	transition: 0.7s ease-out;
-	opacity: 1;
-	padding: 12px;
-	border-radius: 30px;
-	border: 3px solid #00f2c2;
-	box-shadow: 0 0 8px #00f2c2;
-	color: #0fc;
+    transition: 0.7s ease-out;
+    opacity: 1;
+    padding: 12px;
+    border-radius: 30px;
+    border: 3px solid #00f2c2;
+    box-shadow: 0 0 8px #00f2c2;
+    color: #0fc;
 }
 .header-navigation {
-	font-weight: normal;
-	text-align: center;
-	margin: 0 auto;
-	font-size: 32px;
-	padding: 15px;
-	width: 300px;
-	border-bottom: 2px solid #fff;
-	border-radius: 1px 1px 1px 1px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 32px;
+    padding: 15px;
+    width: 300px;
+    border-bottom: 2px solid #fff;
+    border-radius: 1px 1px 1px 1px;
 }
 .header-navigation span {
-	padding: 10px;
+    padding: 10px;
 }
 .header-logo span:hover {
-	box-shadow: 0 0 13px #00f2c2;
+    box-shadow: 0 0 13px #00f2c2;
 }
 .navigation {
-	margin-top: 100px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .box-nav {
-	padding: 20px;
-	text-align: center;
-	margin: 50px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px;
 }
 .box-nav span {
-	transition: 0.8s ease-out;
-	border-radius: 30px;
-	border: 3px solid #00f0e4;
-	padding: 15px;
-	font-size: 32px;
+    transition: 0.8s ease-out;
+    border-radius: 30px;
+    border: 3px solid #00f0e4;
+    padding: 15px;
+    font-size: 32px;
 }
 .box-nav span:hover {
-	background-color: rgba(0,240,228,0.1);
-	border-radius: 30px;
-	border: 3px solid #00f0e4;
+    background-color: rgba(0,240,228,0.1);
+    border-radius: 30px;
+    border: 3px solid #00f0e4;
 }
 .header-about {
-	margin-top: 80px;
-	text-align: center;
-	font-size: 32px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 32px;
 }
 .text-about {
-	text-align: center;
-	margin: 50px auto;
-	font-size: 20px;
-	width: 600px;
-	line-height: 30px;
+    text-align: center;
+    margin: 50px auto;
+    font-size: 20px;
+    width: 600px;
+    line-height: 30px;
 }
 .green {
-	color: #00f0e4;
+    color: #00f0e4;
 }
 .day {
-  	text-align: center;
+    text-align: center;
 }
 .day-text {
-	border-bottom: 3px solid #fff;
-	padding: 20px;
-  	width: 800px;
-	margin: auto auto 40px;
-	font-size: 38px;
+    border-bottom: 3px solid #fff;
+    padding: 20px;
+    width: 800px;
+    margin: auto auto 40px;
+    font-size: 38px;
 }
 .day-list {
-  	display: flex;
-  	align-items: center;
-  	text-align: center;
-  	flex-wrap: wrap;
-  	justify-content: center;
-	background-color: #fff;
-  	width: 1000px;
-	border-radius: 30px;
-	margin: 0 auto 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    width: 1000px;
+    border-radius: 30px;
+    margin: 0 auto 100px;
 }
 .day-element  {
-  	margin: 70px;
-  	font-size: 22px;
+    margin: 70px;
+    font-size: 22px;
 }
 .lessson-all {
-  	padding: 20px 40px 20px 40px;
+    padding: 20px 40px 20px 40px;
     border-radius: 22px;
-  	background: #000;
-  	color: #fff;	
+    background: #000;
+    color: #fff;
 }
 .lesson {
-	color: #00f2c2;
+    color: #00f2c2;
 }
 .lesson-big {
-	padding: 20px 40px 20px 40px;
-	border-radius: 22px;
-	background: #000;
-	color: #fff;
+    padding: 20px 40px 20px 40px;
+    border-radius: 22px;
+    background: #000;
+    color: #fff;
 }
 #name {
-	padding: 15px 20px 15px 20px;
-	border-radius: 28px;
-	background-color: #fff;
-	color: #000;
-	font-size: 20px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 28px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
 }
 .inqury-main {
-	margin-top: -20px;
-	text-align: center;
+    margin-top: -20px;
+    text-align: center;
 }
 .inqury-key {
-	font-size: 35px;
-	margin: 100px;
-	line-height: 45px;
+    font-size: 35px;
+    margin: 100px;
+    line-height: 45px;
 }
 .submit {
-	font-size: 28px;
-	padding: 15px 20px 15px 20px;
-	border-radius: 28px;
-	border: 2px solid #fff;
+    font-size: 28px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 28px;
+    border: 2px solid #fff;
 }
 .submit:hover {
-	color: #000;
-	background-color: #fff;
+    color: #000;
+    background-color: #fff;
 }
 .idtext {
-	margin: 20px;
-	font-size: 20px;
+    margin: 20px;
+    font-size: 20px;
 }
 .text-about-inqury {
-	margin-top: -50px;
-	margin-bottom: 50px;
-	font-size: 20px;
-	line-height: 30px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 30px;
 }
 .text-about-inqury a {
-	color: #00f0e4;
+    color: #00f0e4;
 }
 .text-about-inqury a:hover {
-	color: #75fff8;
+    color: #75fff8;
 }
 .header-class {
-	margin: 75px;
-	text-align: center;
-	font-weight: normal;
-	font-size: 36px;
+    margin: 75px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 36px;
 }
 .class {
-  	display: flex;
-  	flex-wrap: wrap;
-  	text-align: center;
-  	align-items: center;
-  	justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .choose-class {
-	margin: 50px;
-	color: #FFF;
-	border: 3px solid #fff;
-	border-radius: 28px;
-	font-size: 28px;
-	padding: 30px;
-	background: rgb(0,74,255);
-	background: -moz-linear-gradient(90deg, rgba(0,74,255,1) 0%, rgba(188,0,255,1) 100%);
-	background: -webkit-linear-gradient(90deg, rgba(0,74,255,1) 0%, rgba(188,0,255,1) 100%);
-	background: linear-gradient(90deg, rgba(0,74,255,1) 0%, rgba(188,0,255,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004aff",endColorstr="#bc00ff",GradientType=1);
+    margin: 50px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 28px;
+    font-size: 28px;
+    padding: 30px;
+    background: #000;
 }
 
 .time-call {
-	text-align: center;
-	font-size: 35px;
-	margin: 65px 40px 40px 40px;
-	font-weight: normal;
+    text-align: center;
+    font-size: 35px;
+    margin: 65px 40px 40px 40px;
+    font-weight: normal;
 }
 
 #timeCall {
-	transition: 0.5s ease-out;
-	border-radius: 28px;
-	padding: 10px;
-	border: 3px solid #fff;
-	box-shadow: 0 0 8px #ffffff;
+    transition: 0.5s ease-out;
+    border-radius: 28px;
+    padding: 10px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 8px #ffffff;
 }
 
 #timeCall:hover {
-	box-shadow: 0 0 12px #ffffff;
+    box-shadow: 0 0 12px #ffffff;
 }
 .back span {
-	color: #00f088;
-	font-size: 28px;
-	border: 3px solid #00f088;
-	text-align: center;
-	border-radius: 22px;
-	padding: 10px 25px 10px 25px;
+    color: #00f088;
+    font-size: 28px;
+    border: 3px solid #00f088;
+    text-align: center;
+    border-radius: 22px;
+    padding: 10px 25px 10px 25px;
 }
 .back span:hover {
-	color: #000;
-	font-weight: bold;
-	background-color: #00f088;
+    color: #000;
+    font-weight: bold;
+    background-color: #00f088;
 }
 .back {
-	margin: 25px;
-	display: flex;
-	justify-content: center;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
 }
 .timetimer {
-	font-weight: bold;
-	font-size: 25px;
-	padding-bottom: 40px;
-	text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 .line {
-	width: 300px;
-	background-color: #fff;
+    width: 300px;
+    background-color: #fff;
 }
 .timeLink {
-	display: flex;
-	justify-content: center;
-	font-size: 28px;
-	padding-bottom: 25px;
-	margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    padding-bottom: 25px;
+    margin-top: -10px;
 }
 .timeLink span {
-	background: rgb(255,0,0);
-	padding: 15px;
-	border-radius: 28px;
-	border: 3px solid #fff;
-	background: -moz-linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,188,0,1) 100%);
-	background: -webkit-linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,188,0,1) 100%);
-	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,188,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ffbc00",GradientType=1);
+    background: rgb(255,0,0);
+    padding: 15px;
+    border-radius: 28px;
+    border: 3px solid #fff;
+    background: -moz-linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,188,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,188,0,1) 100%);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,188,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ffbc00",GradientType=1);
 }
 .timeLink span:hover {
-	background: rgb(255,119,0);
-	background: -moz-linear-gradient(90deg, rgba(255,119,0,1) 0%, rgba(255,209,0,1) 100%);
-	background: -webkit-linear-gradient(90deg, rgba(255,119,0,1) 0%, rgba(255,209,0,1) 100%);
-	background: linear-gradient(90deg, rgba(255,119,0,1) 0%, rgba(255,209,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7700",endColorstr="#ffd100",GradientType=1);
+    background: rgb(255,119,0);
+    background: -moz-linear-gradient(90deg, rgba(255,119,0,1) 0%, rgba(255,209,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,119,0,1) 0%, rgba(255,209,0,1) 100%);
+    background: linear-gradient(90deg, rgba(255,119,0,1) 0%, rgba(255,209,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7700",endColorstr="#ffd100",GradientType=1);
 }
 .lesson-left {
-	text-align: center;
-	font-size: 22px;
-	margin-top: 50px;
-	font-weight: bold;
-	padding-bottom: 40px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+    font-weight: bold;
+    padding-bottom: 40px;
 }
 .lesson-left span {
-	padding: 15px;
-	border-radius: 28px;
-	border: 3px solid #e7e7e7;
-	background-color: #000;
-	color: #fff;
+    padding: 15px;
+    border-radius: 28px;
+    border: 3px solid #e7e7e7;
+    background-color: #000;
+    color: #fff;
 }
 @media screen and (max-width: 1320px) {
-	.navigation {
-		flex-direction: column;
-		margin-top: 20px;
-	}
-	.box-nav span {
-		padding: 20px;
-	}
+    .navigation {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .box-nav span {
+        padding: 20px;
+    }
 }
 @media screen and (max-width: 1110px) {
-	.day-list {
-		width: 800px;
-	}
+    .day-list {
+        width: 800px;
+    }
 }
 @media screen and (max-width: 920px) {
-	.day-list {
-		width: 600px;
-	}
-	.day-text {
-		width: 650px;
-	}
+    .day-list {
+        width: 600px;
+    }
+    .day-text {
+        width: 650px;
+    }
 }
 @media screen and (max-width: 770px) {
-	.day-list {
-		width: 550px;
-	}
-	.day-text {
-		width: 560px;
-	}
+    .day-list {
+        width: 550px;
+    }
+    .day-text {
+        width: 560px;
+    }
 }
 @media screen and (max-width: 680px) {
-	.day-list {
-		width: 450px;
-	}
-	.day-text {
-		width: 460px;
-	}
+    .day-list {
+        width: 450px;
+    }
+    .day-text {
+        width: 460px;
+    }
 }
 @media screen and (max-width: 590px) {
-	.day-list {
-		width: 350px;
-	}
-	.day-text {
-		width: 360px;
-	}
-	.day-element  {
-  		margin: 50px;
-  		font-size: 18px;
-	}
-	.class {
-		text-align: center;
-		display: flex;	
-		justify-content: space-around;
-		flex-direction: column;
-	}
-	.header-class {
-		margin: 55px;
-	}
-	.choose-class {
-		margin: 35px
-	}
+    .day-list {
+        width: 350px;
+    }
+    .day-text {
+        width: 360px;
+    }
+    .day-element  {
+        margin: 50px;
+        font-size: 18px;
+    }
+    .class {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .header-class {
+        margin: 55px;
+    }
+    .choose-class {
+        margin: 35px
+    }
 }
 @media screen and (max-width: 530px) {
-	.one_list_change {
-		width: 280px;
-		height: 482px;
-		font-size: 22px;
-	}
-	.one_change {
-		font-size: 32px;
-	}
-	.element_sp {
-		text-align: center;
-		border-radius: 22px;
-		background-color: #000;
-	}
+    .one_list_change {
+        width: 280px;
+        height: 482px;
+        font-size: 22px;
+    }
+    .one_change {
+        font-size: 32px;
+    }
+    .element_sp {
+        text-align: center;
+        border-radius: 22px;
+        background-color: #000;
+    }
 }
 @media screen and (max-width: 450px) {
-	.day-list {
-		width: 300px;
-	}
-	.day-text {
-		width: 320px;
-	}
-	.day-element  {
-  		margin: 45px;
-  		font-size: 18px;
-	}
-	.lessson-all {
-	  	padding: 20px 25px 20px 25px;	
-	}
-	.lesson-big {
-		padding: 20px 15px 20px 15px;
-	}
+    .day-list {
+        width: 300px;
+    }
+    .day-text {
+        width: 320px;
+    }
+    .day-element  {
+        margin: 45px;
+        font-size: 18px;
+    }
+    .lessson-all {
+        padding: 20px 25px 20px 25px;
+    }
+    .lesson-big {
+        padding: 20px 15px 20px 15px;
+    }
 }
 @media screen and (max-width: 400px) {
-	.day-list {
-		width: 250px;
-	}
-	.day-text {
-		width: 265px;
-	}
-	.day-element  {
-  		margin: 40px;
-  		font-size: 16px;
-	}
-	.lessson-all {
-	  	padding: 20px 25px 20px 25px;	
-	}
-	.lesson-big {
-		padding: 20px 20px 20px 20px;
-	}
+    .day-list {
+        width: 250px;
+    }
+    .day-text {
+        width: 265px;
+    }
+    .day-element  {
+        margin: 40px;
+        font-size: 16px;
+    }
+    .lessson-all {
+        padding: 20px 25px 20px 25px;
+    }
+    .lesson-big {
+        padding: 20px 20px 20px 20px;
+    }
 }
 @media screen and (max-width: 340px) {
-	.day-list {
-		width: 240px;
-	}
-	.day-text {
-		width: 235px;
-	}
-	.day-element  {
-  		margin: 35px;
-  		font-size: 16px;
-	}
-	.lessson-all {
-	  	padding: 20px 25px 20px 25px;	
-	}
-	.header-class {
-		font-size: 32px;
-		margin: 16px;
-	}
-	.choose-class {
-		margin: 35px;
-	}
+    .day-list {
+        width: 240px;
+    }
+    .day-text {
+        width: 235px;
+    }
+    .day-element  {
+        margin: 35px;
+        font-size: 16px;
+    }
+    .lessson-all {
+        padding: 20px 25px 20px 25px;
+    }
+    .header-class {
+        font-size: 32px;
+        margin: 16px;
+    }
+    .choose-class {
+        margin: 35px;
+    }
 }
 @media screen and (max-width: 380px) {
-	.one_list_change {
-		width: 250px;
-		height: 450px;
-		font-size: 20px;
-		font-weight: normal;
-	}
-	.one_change {
-		font-weight: normal;
-		font-size: 30px;
-	}
-	.element_sp {
-		text-align: center;
-		border-radius: 22px;
-		background-color: #000;
-	}
+    .one_list_change {
+        width: 250px;
+        height: 450px;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .one_change {
+        font-weight: normal;
+        font-size: 30px;
+    }
+    .element_sp {
+        text-align: center;
+        border-radius: 22px;
+        background-color: #000;
+    }
 }
 @media screen and (max-width: 320px) {
-	.one_list_change {
-		height: 440px;
-		width: 250px;
-	}
+    .one_list_change {
+        height: 440px;
+        width: 250px;
+    }
 }
 @media screen and (max-width: 670px) {
-	.text-about {
-		width: 500px;
-	}
+    .text-about {
+        width: 500px;
+    }
 }
 @media screen and (max-width: 590px) {
-	.text-about {
-		width: 450px;
-	}
+    .text-about {
+        width: 450px;
+    }
 }
 @media screen and (max-width: 500px) {
-	.text-about {
-		width: 350px;
-	}
-	.header-navigation {
-		width: 300px
-	}
+    .text-about {
+        width: 350px;
+    }
+    .header-navigation {
+        width: 300px
+    }
 }
 @media screen and (max-width: 400px) {
-	.text-about {
-		width: 300px;
-	}
+    .text-about {
+        width: 300px;
+    }
 }
 @media screen and (max-width: 370px) {
-	.text-about {
-		width: 250px;
-	}
-	.header-logo {
-		margin: 50px;
-		font-size: 40px;
-	}
-	.box-nav span {
-		padding: 14px;
-		font-size: 26px;
-	}
+    .text-about {
+        width: 250px;
+    }
+    .header-logo {
+        margin: 50px;
+        font-size: 40px;
+    }
+    .box-nav span {
+        padding: 14px;
+        font-size: 26px;
+    }
 }
 @media screen and (max-width: 450px) {
-	.header-navigation {
-		width: 250px
-	}
-	.box-nav span {
-		padding: 15px;
-		font-size: 28px;
-	}
-	.box-nav {
-		padding: 20px;
-		text-align: center;
-		margin: 40px;
-	}
+    .header-navigation {
+        width: 250px
+    }
+    .box-nav span {
+        padding: 15px;
+        font-size: 28px;
+    }
+    .box-nav {
+        padding: 20px;
+        text-align: center;
+        margin: 40px;
+    }
 }
