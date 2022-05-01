@@ -207,6 +207,7 @@ body {
 }
 .choose-class {
     margin: 50px;
+    transition: 0.8s;
     color: #fff;
     border: 3px solid #fff;
     border-radius: 28px;
@@ -214,7 +215,10 @@ body {
     padding: 30px;
     background: #000;
 }
-
+.choose-class:hover {
+    background: #212121;
+    box-shadow: 0 0 8px #fff;
+}
 .time-call {
     text-align: center;
     font-size: 35px;
