@@ -1,2 +1,2 @@
 # Quantum
-Site for classmates
+*Site for classmates*

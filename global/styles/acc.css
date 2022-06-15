@@ -1,0 +1,303 @@
+.header-logo {
+    margin-top: 150px;
+}
+.header-login {
+    text-align: center;
+    font-size: 32px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.data-get {
+    border: 2px solid #fff;
+    padding: 8px;
+    border-radius: 22px;
+    margin: 10px;
+}
+.text-input {
+    font-size: 20px;
+}
+.submit-btn {
+    transition: 0.2s ease-out;
+    font-size: 22px;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 26px;
+    margin-top: 10px;
+    border: 2px solid #fff;
+}
+.submit-btn:hover {
+    border: 2px solid #20ff00;
+    background-color: #141414;
+}
+.link-inquiry {
+    transition: 0.2s ease-out;
+    font-size: 22px;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 26px;
+    margin-top: 20px;
+    border: 2px solid #fff;
+}
+.link-inquiry:hover {
+    border: 2px solid #20ff00;
+    background-color: #141414;
+}
+.account_header {
+    display: flex;
+}
+.settings {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -80px;
+    margin-left: 60px;
+}
+.settings span {
+    border: 3px solid #fff;
+    border-radius: 22px;
+    padding: 10px;
+}
+.settings span:hover {
+    transition: .4s ease-out;
+    border: 3px solid #eeeeee;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    padding: 10px;
+}
+.mail {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -82px;
+    margin-left: 60px;
+}
+.mail span {
+    border: 3px solid #fff;
+    border-radius: 22px;
+    padding: 10px;
+}
+.mail span:hover {
+    transition: .4s ease-out;
+    border: 3px solid #eeeeee;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    padding: 10px;
+}
+.header-logo-2 {
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+    font-size: 45.8px;
+}
+.header-logo-2 span {
+    transition: 0.7s ease-out;
+    opacity: 1;
+    padding: 12px;
+    border-radius: 30px;
+    border: 3px solid #00f2c2;
+    box-shadow: 0 0 8px #00f2c2;
+    color: #0fc;
+}
+.header-logo-2 span:hover {
+    box-shadow: 0 0 13px #00f2c2;
+}
+.date-create {
+    font-size: 30px;
+    text-align: center;
+}
+.date-create-text {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 35px;
+}
+.date-create-text span {
+    background-color: #f9f9f9;
+    color: #212121;
+    border-radius: 22px;
+    font-weight: bold;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px #ffffff;
+    padding: 10px;    
+}
+.exit {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.exit span {
+    border: 3px solid #fff;
+    border-radius: 22px;
+    padding: 10px;
+}
+.exit span:hover {
+    transition: .4s ease-out;
+    border: 3px solid red;
+    background-color: rgba(255, 0, 0, 0.2);
+    border-radius: 24px;
+    padding: 10px;
+}
+.info_one {
+    margin-left: 38px;
+    font-size: 22px;
+    margin-top: 40px;
+}
+#time {
+    text-align: center;
+    margin-top: 80px;
+}
+#dayTime {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(46,46,46,1) 100%);
+    border: 3px solid #fff;
+    padding: 20px;
+    border-radius: 28px;
+}
+#date {
+    font-weight: bold;    
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 60px;
+}
+.info_header {
+    margin-top: -20px;
+    font-size: 20px;    
+    margin-left: -125px;
+}
+.color {
+    border: 3px solid #ffebeb;
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 30px;
+}
+.color_2 {
+    border-top: 0px solid #ffebeb;
+    border-radius: 0 0 20px 20px;
+    border-right: 3px solid #ffebeb;
+    border-left: 3px solid #ffebeb;
+    border-bottom: 3px solid #ffebeb;
+}
+.mail-m {
+    font-size: 21px;
+    margin-left: 100px;
+}
+.header-mail-m {
+    border-radius: 22px;
+    font-size: 28px;
+    margin-top: -20px;
+    padding: 35px;
+}
+.header-mail-m span {
+    margin-top: 10px;
+    background-color: #212121;
+    border-radius: 22px;
+    border: 3px solid #b0b0b0;
+    padding: 15px;
+}
+.m1id1span {
+    background-color: #000;
+    padding: 35px;
+    margin-top: 40px;
+    border: 2.8px solid #fff;
+    border-radius: 28px;
+}
+.m1id1 {
+    margin-top: 55px;
+}
+.AutorMessage {
+    background-color: #212121;
+    border-radius: 22px;
+    border: 2.8px solid #fff;
+    padding: 10px;
+    margin-top: 100px;
+}
+.AutorWriteMessage {
+    margin-left: 15px;
+}
+.open {
+    margin-top: 80px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.open span {
+    background-color: #0d0d0d;
+    transition: .5s ease-out;
+    padding: 15px;
+    border-radius: 28px;
+    border: 3px solid #eee;
+}
+.open span:hover {
+    background-color: #141414;
+    padding: 15px;
+    border-radius: 32px;
+    border: 3px solid #fff;
+}
+.messages {
+    padding-bottom: 80px;
+}
+.mail-m {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.date-mail {
+    margin-left: 590px;
+    margin-top: -20px;
+}
+.account_header {
+    display: flex;
+    justify-content: center;
+}
+.main-2 {
+    margin-top: -10px;
+}
+.event-day {
+    font-size: 22px;
+    margin: 20px;
+    margin-top: 28px;
+}
+.info_four {
+    display: flex;
+    justify-content: center;
+}
+.event-text {
+    font-size: 20px;
+    margin: 22px;
+    margin-left: -10px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(111,111,111,1) 100%);
+    border: 2px solid #fff;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 22px;
+}
+@media screen and (max-width: 1150px) {
+   .date-mail {
+        margin-left: 300px;
+        margin-top:  60px;
+    }
+    .open {
+        margin-top: 0px;        
+    }
+}
+@media screen and (max-width: 900px) {
+   .date-mail {
+        margin-left: 300px;
+        margin-top:  60px;
+    }
+    .open {
+        margin-top: 0px;        
+    }
+}
+@media screen and (max-width: 750px) {
+}
+

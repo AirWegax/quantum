@@ -1,4 +1,4 @@
-const timeTimer = document.getElementById('time-timer')
+		const timeTimer = document.getElementById('time-timer')
 const lessonLeft = document.getElementById('lesson-left')
 
 let date = new Date();

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quantum | Личный Кабинет</title>
+	<link rel="stylesheet" href="../../global/styles/style.css">
+	<link rel="stylesheet" href="../../global/styles/acc.css">
+	<link rel="icon" href="../../global/photo/logo.png">
+	<link rel="stylesheet" href="../../global/styles/reset.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+</head>
+<body class="body_hide">
+	<header class="header">
+		<div  class="logo">
+			<h1 class="header-logo-2"><a href="../../index.html"><span>Quantum</span></a></h1>
+		</div>
+		<div class="account_header">
+			<h2 class="exit" onclick="exitButton();"><span id="exit">Выйти</span></h2>
+		</div>
+	</header>
+	<main class="main">
+		<div class="main-2">
+			<div class="info_two">
+				<p id="time"><span id="dayTime">Подключите JS</span></p>
+			</div>
+			<div class="info_there">
+				<p id="date"><span id="dateSpan"><span class="color">Дата создания:</span><br><span class="color color_2">2022.06.02</span></span></p>
+			</div>
+			<div class="info_four">
+				<h2 class="event-day">Событие дня:</h2>
+				<p class="event-text" id="event-text">Событий нет.</p>
+			</div>
+		</div>
+	</main>
+	<script>
+		const dayTime = document.getElementById('dayTime');
+		const eventText = document.getElementById('event-text');
+
+		let date = new Date();
+
+		let sec = date.getSeconds();
+		let month = date.getDate();
+		let minutes = date.getMinutes();
+		let hour = date.getHours();
+		let dayWeek = date.getDay();
+
+		function updateDate() {
+		    date = new Date();
+		    // date get list
+		    sec = date.getSeconds();
+		    minutes = date.getMinutes();
+		    month = date.getMonth();
+		    hour = date.getHours();
+		    dayWeek = date.getDay();
+		}
+		updateDate();
+		setInterval(updateDate, 1000);
+
+		if (month >= 5 && month <= 7) {
+			eventText.textContent = "Каникулы!"
+		}
+
+		let dayWeekWord = '';
+		if (dayWeek == 0) {
+		    dayWeekWord = 'ВС '
+		} else if (dayWeek == 1) {
+		    dayWeekWord = 'ПН '
+		} else if (dayWeek == 2) {
+		    dayWeekWord = 'ВТ '
+		} else if (dayWeek == 3) {
+		    dayWeekWord = 'СР '
+		} else if (dayWeek == 4) {
+		    dayWeekWord = 'ЧТ '
+		} else if (dayWeek == 5) {
+		    dayWeekWord = 'ПТ '
+		} else if (dayWeek == 6) {
+		    dayWeekWord = 'CБ '
+		}
+		function updateDayTime() {
+		    if (minutes < 10 && sec < 10) {
+		        dayTime.textContent = dayWeekWord + hour + ':' + '0' + minutes + ':' + '0' + sec;
+		    } else if (minutes < 10 && sec > 10) {
+		    	dayTime.textContent = dayWeekWord + hour + ':' + '0' + minutes + ':' + sec;
+		    } else if (minutes > 10 && sec < 10) {
+		    	dayTime.textContent = dayWeekWord + hour + ':' + minutes + ':' + '0' + sec;
+		    }
+		    else {
+		        dayTime.textContent = dayWeekWord + hour + ':' + minutes + ':' + sec;
+		    }
+		} updateDayTime();
+		setInterval(updateDayTime, 1000);
+	</script>
+	<script src="../../global/scripts/script.js"></script>
+	<script src="../../global/scripts/accountDelete.js"></script>
+</body>
+</html>
