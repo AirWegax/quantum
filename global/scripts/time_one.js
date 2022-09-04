@@ -1,4 +1,4 @@
-		const timeTimer = document.getElementById('time-timer')
+const timeTimer = document.getElementById('time-timer')
 const lessonLeft = document.getElementById('lesson-left')
 
 let date = new Date();
@@ -12,7 +12,12 @@ function datesUpdated() {
 	min = date.getMinutes();
 	day = date.getDay();
 }
-setInterval(datesUpdated, 1000)
+setInterval(datesUpdated, 1000) 
+
+//test
+// day = 3;
+// hour = 13;
+// min = 5;
 
 let minTimer = 0;
 
@@ -141,8 +146,8 @@ function timeUpdate() {
 					timeTimer.textContent = 'До перемены: ' + minTimer + ' минут';
 					lessonLeft.textContent = 'Осталось уроков: (3)';
 					minTimer = 0;
-				} else if (hour === 12 && min <= 15) {
-					minTimer = 15;
+				} else if (hour === 12 && min <= 10) {
+					minTimer = 10;
 					minTimer = minTimer - min;
 					timeTimer.textContent = 'До перемены: ' + minTimer + ' минут';
 					lessonLeft.textContent = 'Осталось уроков: (3)';
@@ -151,8 +156,8 @@ function timeUpdate() {
 			}
 			if (hour === 12) {
 				// lesson left: 2
-				if (min >= 15 && min <= 20) {
-					minTimer = 20;
+				if (min >= 10 && min <= 15) {
+					minTimer = 15;
 					minTimer = minTimer - min;
 					timeTimer.textContent = 'До урока: ' + minTimer + ' минут';
 					lessonLeft.textContent = 'Осталось уроков: (2)';
@@ -162,13 +167,13 @@ function timeUpdate() {
 			// sixth lesson
 			if ((hour === 12) || (hour === 13)) {
 				// lesson left: 2
-				if (hour === 12 && min >= 20) {
-					minTimer = 65;
+				if (hour === 12 && min >= 15) {
+					minTimer = 60;
 					minTimer = minTimer - min;
 					timeTimer.textContent = 'До перемены: ' + minTimer + ' минут';
 					lessonLeft.textContent = 'Осталось уроков: (2)';
 					minTimer = 0;
-				} else if (hour === 13 && min <= 5) {
+				} else if (hour === 13 && min <= 0) {
 					minTimer = 5;
 					minTimer = minTimer - min;
 					timeTimer.textContent = 'До перемены: ' + minTimer + ' минут';
@@ -178,8 +183,8 @@ function timeUpdate() {
 			}
 			if (hour === 13) {
 				// lesson left: 1
-				if (min >= 5 && min <= 10) {
-					minTimer = 10;
+				if (min >= 0 && min <= 5) {
+					minTimer = 5;
 					minTimer = minTimer - min;
 					timeTimer.textContent = 'До урока: ' + minTimer + ' минут';
 					lessonLeft.textContent = 'Осталось уроков: (1)';
@@ -187,10 +192,10 @@ function timeUpdate() {
 				}
 			}
 			// seventh lesson
-			if (hour === 13 && min >= 10) {
+			if (hour === 13 && min >= 5) {
 				// lesson left: 1
-				if (min < 55) {
-					minTimer = 55;
+				if (min < 50) {
+					minTimer = 50;
 					minTimer = minTimer - min;
 					timeTimer.textContent = 'До конца: ' + minTimer + ' минут';
 					lessonLeft.textContent = 'Осталось уроков: (1)';
