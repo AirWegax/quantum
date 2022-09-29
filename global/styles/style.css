@@ -471,6 +471,12 @@ body {
     .lesson-big {
         padding: 20px 20px 20px 20px;
     }
+    .header-class {
+        font-size: 28px;
+    }
+    .choose-class {
+        font-size: 22px;
+    }
 }
 @media screen and (max-width: 340px) {
     .day-list {
@@ -546,7 +552,13 @@ body {
     }
     .header-logo {
         margin: 50px;
-        font-size: 40px;
+        font-size: 42.5px;
+    }
+    .header-class {
+        font-size: 26px;
+    }
+    .choose-class {
+        font-size: 20.5px;
     }
     .box-nav span {
         padding: 14px;
