@@ -3,12 +3,12 @@ let button = document.getElementById('submit-btn')
 let exitButtonZ = document.getElementById('exit')
 // counter for SaveLogin
 let counter = localStorage.getItem('counter')
-// inputs get HTML
-let dataLoginInput = document.getElementById('data-login')
-let dataPasswordInput = document.getElementById('data-password')
 if (counter == 1) {
     location.href = '../../quantum/pages/accounts_pages/zahar-id-s0b3g4x6m0x8e8.html';
 }
+// inputs get HTML
+let dataLoginInput = document.getElementById('data-login')
+let dataPasswordInput = document.getElementById('data-password')
 // change color to default for inputs CSS
 function borderColorChange() {
     dataLoginInput.style.border = '2px solid #fff';
